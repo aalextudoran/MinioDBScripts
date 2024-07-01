@@ -1,0 +1,21 @@
+After installing PostgreSQL run the scripts in the following order:
+- MinIODBScript
+- DownloadLogsScript
+- DownloadLogsPK
+- SeachLogsScript
+- SearchLogsPKScript
+
+After downloading the server project:
+- setup project sdk (JDK 17) 
+- allow maven script build load
+- allow lombok annotations
+- make sure that the minio port in MinioConfig file is the http://192.168.1.6:9000 (if not please change it accordingly)
+
+
+After downloading the frontend project run the following commands in terminal: 
+- npm install 
+- ng serve (to run the project) 
+
+
+
+This application downloads,uploads,sorts and searches objects based on API calls in the desired MinIO server. 
