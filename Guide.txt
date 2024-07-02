@@ -16,6 +16,5 @@ After downloading the frontend project run the following commands in terminal:
 - npm install 
 - ng serve (to run the project) 
 
-
-
+Go to URL: http://localhost:8080/api/minio/objects
 This application downloads,uploads,sorts and searches objects based on API calls in the desired MinIO server. 
